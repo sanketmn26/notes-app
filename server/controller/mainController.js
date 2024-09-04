@@ -16,5 +16,8 @@ exports.about = async (req, res) => {
       title: "About - NodeJS Notes",
       description: "Free NodeJS Notes App",
     };
-    res.render("about", locals);
+    res.render("about", {
+      locals,
+      layout:'../views/layouts/front-page.ejs'
+    });
   };
