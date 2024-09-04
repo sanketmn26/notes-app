@@ -1,0 +1,14 @@
+-> connect-mongo & express-session = to store session data in MongoDB
+-> dotenv = to handle environment variable efficiently
+-> ejs = template engine to integrate JS into HTML
+-> express = NodeJS framework
+-> express-ejs-layouts = to create layouts with ejs and reuse code
+-> method-override = to override http requests (eg. form submission)
+-> mongoose = Object Data Modeling library for MongoDB and NodeJS, schema based data
+-> passport = authentication middleware
+-> passport-google-oauth20 = authenticating users with google
+
+
+Credit - https://www.youtube.com/watch?v=BDo1lgaZuII (Raddy)
+
+ 
