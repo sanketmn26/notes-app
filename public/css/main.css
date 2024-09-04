@@ -1,3 +1,22 @@
-body{
-    background: aqua;
+:root {
+  --backgroud-color: #ffc700;
+  --bs-primary-rgb: #12296c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--backgroud-color);
+  color: var(--bs-primary-rgb);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Unbounded", cursive;
+  font-weight: 800;
 }
