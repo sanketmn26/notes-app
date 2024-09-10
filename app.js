@@ -18,6 +18,9 @@ app.use(
     store: MongoStore.create({
       mongoUrl: process.env.MONGODB_URL,
     }),
+    // cookie:{
+    //   maxAge: new Date(Date.now() + (360000))
+    // }
   })
 );
 
