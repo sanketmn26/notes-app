@@ -37,7 +37,7 @@ app.use(methodOverride("_method"));
 connectDB();
 
 // Static files
-app.use(path.join(__dirname, "public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Template engine
 app.use(expressLayouts);
