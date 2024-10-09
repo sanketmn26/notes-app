@@ -40,6 +40,7 @@ app.use(express.static("public"));
 
 // Template engine
 app.use(expressLayouts);
+app.set("views", path.join(__dirname, "views"));
 app.set("layout", "./layouts/main");
 app.set("view engine", "ejs");
 
